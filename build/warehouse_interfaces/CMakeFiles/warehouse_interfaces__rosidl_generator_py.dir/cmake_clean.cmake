@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.o"
+  "CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.o.d"
   "CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/srv/_check_stock_s.c.o"
   "CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/srv/_check_stock_s.c.o.d"
   "rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.pdb"

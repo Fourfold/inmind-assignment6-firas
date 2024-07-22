@@ -78,11 +78,25 @@ rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock
 rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em
 rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/warehouse_interfaces/srv/CheckStock.idl
+rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/warehouse_interfaces/action/DeliverItem.idl
+rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp --generator-arguments-file "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/rosidl_typesupport_introspection_cpp__arguments.json"
 
+rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__rosidl_typesupport_introspection_cpp.hpp: rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__rosidl_typesupport_introspection_cpp.hpp
+
 rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__type_support.cpp: rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__type_support.cpp
+
+rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp: rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp
 
 CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__type_support.cpp.o: CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make
 CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__type_support.cpp.o: rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__type_support.cpp
@@ -98,21 +112,40 @@ CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__type_support.cpp" -o CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__type_support.cpp.s
 
+CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp.o: CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make
+CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp.o: rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp
+CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp.o: CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp.o -MF CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp.o.d -o CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp.o -c "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp"
+
+CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp" > CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp.i
+
+CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp" -o CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp.s
+
 # Object files for target warehouse_interfaces__rosidl_typesupport_introspection_cpp
 warehouse_interfaces__rosidl_typesupport_introspection_cpp_OBJECTS = \
-"CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__type_support.cpp.o"
+"CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__type_support.cpp.o" \
+"CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp.o"
 
 # External object files for target warehouse_interfaces__rosidl_typesupport_introspection_cpp
 warehouse_interfaces__rosidl_typesupport_introspection_cpp_EXTERNAL_OBJECTS =
 
 libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__type_support.cpp.o
+libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp.o
 libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make
+libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
+libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
 libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
+libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librcutils.so
-libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +156,8 @@ CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/clean
 
+CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__rosidl_typesupport_introspection_cpp.hpp
+CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp
 CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp
 CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__type_support.cpp
 	cd "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/src/warehouse_interfaces" "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/src/warehouse_interfaces" "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces" "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces" "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake" --color=$(COLOR)

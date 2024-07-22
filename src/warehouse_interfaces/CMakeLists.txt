@@ -27,8 +27,12 @@ find_package(rosidl_default_generators REQUIRED)
 set(srv_files
   "srv/CheckStock.srv"
 )
+set(action_files
+  "action/DeliverItem.action"
+)
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${srv_files}
+  ${action_files}
 )
 ament_export_dependencies(rosidl_default_runtime)
 

@@ -97,7 +97,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwarehouse_interfaces__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwarehouse_interfaces__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/opt/ros/humble/lib:/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces:"
+         OLD_RPATH "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libwarehouse_interfaces__rosidl_typesupport_fastrtps_c.so")
@@ -360,6 +360,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/warehouse_interfaces/action" TYPE FILE FILES "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/rosidl_adapter/warehouse_interfaces/action/DeliverItem.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/warehouse_interfaces/srv" TYPE FILE FILES "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/src/warehouse_interfaces/srv/CheckStock.srv")
 endif()
 
@@ -369,6 +373,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/warehouse_interfaces/srv" TYPE FILE FILES "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/rosidl_cmake/srv/CheckStock_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/warehouse_interfaces/action" TYPE FILE FILES "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/src/warehouse_interfaces/action/DeliverItem.action")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -592,6 +600,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/warehouse_interfaces/cmake" TYPE FILE FILES "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/warehouse_interfaces/cmake" TYPE FILE FILES "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
@@ -605,10 +617,6 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/warehouse_interfaces/cmake" TYPE FILE FILES "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/warehouse_interfaces/cmake" TYPE FILE FILES "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

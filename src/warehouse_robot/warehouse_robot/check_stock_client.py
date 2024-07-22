@@ -1,9 +1,8 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Int32
-from std_msgs.msg import String
 from warehouse_interfaces.srv import CheckStock
 import matplotlib.pyplot as plt
+import time
 
 class CheckStockClient(Node):
     def __init__(self):
@@ -33,6 +32,7 @@ class CheckStockClient(Node):
 
 
 def main(args=None):
+    time.sleep(2)
     rclpy.init(args=args)
     client = CheckStockClient()
     client.plot_stock(['item 1', 'item 2', 'item 3', 'item 4', 'item 5', 'item 6', 'item 7', 'item 8', 'item 9', 'item 10'])

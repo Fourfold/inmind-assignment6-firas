@@ -1,4 +1,6 @@
 [console_scripts]
+delivery_client = warehouse_robot.deliver_item_client:main
+delivery_server = warehouse_robot.deliver_item_server:main
 stock_client = warehouse_robot.check_stock_client:main
 stock_server = warehouse_robot.check_stock_server:main
 

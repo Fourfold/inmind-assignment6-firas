@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/warehouse_interfaces/action/detail/dds_fastrtps/deliver_item__type_support.cpp.o"
+  "CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/warehouse_interfaces/action/detail/dds_fastrtps/deliver_item__type_support.cpp.o.d"
   "CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/warehouse_interfaces/srv/detail/dds_fastrtps/check_stock__type_support.cpp.o"
   "CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/warehouse_interfaces/srv/detail/dds_fastrtps/check_stock__type_support.cpp.o.d"
   "libwarehouse_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
   "libwarehouse_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/warehouse_interfaces/action/detail/dds_fastrtps/deliver_item__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/warehouse_interfaces/action/detail/deliver_item__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/warehouse_interfaces/srv/detail/dds_fastrtps/check_stock__type_support.cpp"
 )

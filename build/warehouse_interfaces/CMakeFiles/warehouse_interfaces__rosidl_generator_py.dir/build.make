@@ -83,22 +83,48 @@ CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/war
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/srv/_check_stock_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/rosidl_generator_py/warehouse_interfaces/srv/_check_stock_s.c" -o CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/srv/_check_stock_s.c.s
 
+CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.o: CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/flags.make
+CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.o: rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c
+CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.o: CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.o -MF CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.o.d -o CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.o -c "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c"
+
+CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c" > CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.i
+
+CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c" -o CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.s
+
 # Object files for target warehouse_interfaces__rosidl_generator_py
 warehouse_interfaces__rosidl_generator_py_OBJECTS = \
-"CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/srv/_check_stock_s.c.o"
+"CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/srv/_check_stock_s.c.o" \
+"CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.o"
 
 # External object files for target warehouse_interfaces__rosidl_generator_py
 warehouse_interfaces__rosidl_generator_py_EXTERNAL_OBJECTS =
 
 rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/srv/_check_stock_s.c.o
+rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.o
 rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/build.make
 rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: libwarehouse_interfaces__rosidl_typesupport_c.so
+rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so
+rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
 rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: libwarehouse_interfaces__rosidl_generator_c.so
+rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
+rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so: CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

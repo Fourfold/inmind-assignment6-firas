@@ -16,3 +16,5 @@ test/test_pep257.py
 warehouse_robot/__init__.py
 warehouse_robot/check_stock_client.py
 warehouse_robot/check_stock_server.py
+warehouse_robot/deliver_item_client.py
+warehouse_robot/deliver_item_server.py

@@ -1,8 +1,11 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/warehouse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/warehouse_interfaces/action/deliver_item__type_support.cpp.o"
+  "CMakeFiles/warehouse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/warehouse_interfaces/action/deliver_item__type_support.cpp.o.d"
   "CMakeFiles/warehouse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/warehouse_interfaces/srv/check_stock__type_support.cpp.o"
   "CMakeFiles/warehouse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/warehouse_interfaces/srv/check_stock__type_support.cpp.o.d"
   "libwarehouse_interfaces__rosidl_typesupport_cpp.pdb"
   "libwarehouse_interfaces__rosidl_typesupport_cpp.so"
+  "rosidl_typesupport_cpp/warehouse_interfaces/action/deliver_item__type_support.cpp"
   "rosidl_typesupport_cpp/warehouse_interfaces/srv/check_stock__type_support.cpp"
 )
 

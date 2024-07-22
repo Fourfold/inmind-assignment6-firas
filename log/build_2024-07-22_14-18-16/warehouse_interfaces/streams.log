@@ -1,0 +1,275 @@
+[0.008s] Invoking command in '/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_robot:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces -- -j16 -l16
+[0.023s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.091s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.129s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.130s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.131s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.147s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.319s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.427s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.565s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.577s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.590s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.590s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.590s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.601s] -- Added test 'lint_cmake' to check CMake code style
+[0.601s] -- Added test 'xmllint' to check XML markup files
+[0.603s] -- Configuring done
+[0.619s] -- Generating done
+[0.621s] -- Build files have been written to: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces
+[0.636s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.642s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.646s] [  5%] Built target ament_cmake_python_copy_warehouse_interfaces
+[0.774s] running egg_info
+[0.775s] writing warehouse_interfaces.egg-info/PKG-INFO
+[0.775s] writing dependency_links to warehouse_interfaces.egg-info/dependency_links.txt
+[0.775s] writing top-level names to warehouse_interfaces.egg-info/top_level.txt
+[0.776s] reading manifest file 'warehouse_interfaces.egg-info/SOURCES.txt'
+[0.776s] writing manifest file 'warehouse_interfaces.egg-info/SOURCES.txt'
+[0.792s] [  5%] Built target ament_cmake_python_build_warehouse_interfaces_egg
+[0.898s] [35m[1mConsolidate compiler generated dependencies of target warehouse_interfaces__rosidl_generator_c[0m
+[0.900s] [  5%] Built target warehouse_interfaces__cpp
+[0.904s] [  7%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/srv/detail/check_stock__functions.c.o[0m
+[0.904s] [ 10%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_c.dir/rosidl_generator_c/warehouse_interfaces/action/detail/deliver_item__functions.c.o[0m
+[0.905s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.905s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.905s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.982s] [ 20%] [32m[1mLinking C shared library libwarehouse_interfaces__rosidl_generator_c.so[0m
+[1.004s] [ 20%] Built target warehouse_interfaces__rosidl_generator_c
+[1.010s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.010s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.010s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.077s] [35m[1mConsolidate compiler generated dependencies of target warehouse_interfaces__rosidl_typesupport_cpp[0m
+[1.084s] [ 30%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/warehouse_interfaces/srv/check_stock__type_support.cpp.o[0m
+[1.086s] [ 33%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/warehouse_interfaces/action/deliver_item__type_support.cpp.o[0m
+[1.110s] [35m[1mConsolidate compiler generated dependencies of target warehouse_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.118s] [ 35%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/srv/detail/check_stock__type_support.cpp.o[0m
+[1.120s] [ 38%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/warehouse_interfaces/action/detail/deliver_item__type_support.cpp.o[0m
+[1.155s] [35m[1mConsolidate compiler generated dependencies of target warehouse_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.163s] [ 41%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/warehouse_interfaces/srv/detail/dds_fastrtps/check_stock__type_support.cpp.o[0m
+[1.165s] [ 43%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/warehouse_interfaces/action/detail/dds_fastrtps/deliver_item__type_support.cpp.o[0m
+[1.189s] [35m[1mConsolidate compiler generated dependencies of target warehouse_interfaces__rosidl_typesupport_c[0m
+[1.196s] [ 46%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/warehouse_interfaces/srv/check_stock__type_support.cpp.o[0m
+[1.198s] [ 48%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/warehouse_interfaces/action/deliver_item__type_support.cpp.o[0m
+[1.241s] [35m[1mConsolidate compiler generated dependencies of target warehouse_interfaces__rosidl_typesupport_introspection_c[0m
+[1.243s] [ 51%] [32m[1mLinking CXX shared library libwarehouse_interfaces__rosidl_typesupport_c.so[0m
+[1.248s] [ 53%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/warehouse_interfaces/srv/detail/check_stock__type_support.c.o[0m
+[1.250s] [ 56%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/warehouse_interfaces/action/detail/deliver_item__type_support.c.o[0m
+[1.260s] [35m[1mConsolidate compiler generated dependencies of target warehouse_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.269s] [ 61%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/warehouse_interfaces/action/detail/deliver_item__type_support_c.cpp.o[0m
+[1.269s] [ 61%] [32mBuilding CXX object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/warehouse_interfaces/srv/detail/check_stock__type_support_c.cpp.o[0m
+[1.270s] [ 61%] Built target warehouse_interfaces__rosidl_typesupport_c
+[1.280s] [ 64%] [32m[1mLinking C shared library libwarehouse_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.302s] [ 64%] Built target warehouse_interfaces__rosidl_typesupport_introspection_c
+[1.398s] [ 66%] [32m[1mLinking CXX shared library libwarehouse_interfaces__rosidl_typesupport_cpp.so[0m
+[1.424s] [ 66%] Built target warehouse_interfaces__rosidl_typesupport_cpp
+[1.484s] [ 69%] [32m[1mLinking CXX shared library libwarehouse_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.527s] [ 69%] Built target warehouse_interfaces__rosidl_typesupport_fastrtps_c
+[1.536s] [ 71%] [32m[1mLinking CXX shared library libwarehouse_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.539s] [ 74%] [32m[1mLinking CXX shared library libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.577s] [ 74%] Built target warehouse_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.579s] [ 74%] Built target warehouse_interfaces__rosidl_typesupport_introspection_cpp
+[1.590s] [ 74%] Built target warehouse_interfaces
+[1.600s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.020s] [ 76%] Built target warehouse_interfaces__py
+[2.026s] [35m[1mConsolidate compiler generated dependencies of target warehouse_interfaces__rosidl_generator_py[0m
+[2.032s] [ 79%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/srv/_check_stock_s.c.o[0m
+[2.032s] [ 82%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_generator_py.dir/rosidl_generator_py/warehouse_interfaces/action/_deliver_item_s.c.o[0m
+[2.104s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so[0m
+[2.128s] [ 84%] Built target warehouse_interfaces__rosidl_generator_py
+[2.133s] [35m[1mConsolidate compiler generated dependencies of target warehouse_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.133s] [35m[1mConsolidate compiler generated dependencies of target warehouse_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[2.133s] [35m[1mConsolidate compiler generated dependencies of target warehouse_interfaces__rosidl_typesupport_c__pyext[0m
+[2.141s] [ 89%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.141s] [ 92%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.141s] [ 89%] [32mBuilding C object CMakeFiles/warehouse_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.210s] [100%] [32m[1mLinking C shared library rosidl_generator_py/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.210s] [100%] [32m[1mLinking C shared library rosidl_generator_py/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.210s] [100%] [32m[1mLinking C shared library rosidl_generator_py/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.232s] [100%] Built target warehouse_interfaces__rosidl_typesupport_c__pyext
+[2.233s] [100%] Built target warehouse_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.233s] [100%] Built target warehouse_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.240s] Invoked command in '/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_robot:/opt/ros/humble /usr/bin/cmake --build /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces -- -j16 -l16
+[2.285s] Invoking command in '/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_robot:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces
+[2.290s] -- Install configuration: ""
+[2.290s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/ament_index/resource_index/rosidl_interfaces/warehouse_interfaces
+[2.290s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces
+[2.290s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg
+[2.290s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.290s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action
+[2.290s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/deliver_item.h
+[2.290s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail
+[2.291s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver_item__struct.h
+[2.291s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver_item__functions.c
+[2.291s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver_item__type_support.h
+[2.291s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver_item__functions.h
+[2.291s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv
+[2.291s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/check_stock.h
+[2.291s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail
+[2.291s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/check_stock__struct.h
+[2.291s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/check_stock__functions.c
+[2.291s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/check_stock__functions.h
+[2.291s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/check_stock__type_support.h
+[2.291s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/environment/library_path.sh
+[2.291s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/environment/library_path.dsv
+[2.291s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_generator_c.so
+[2.291s] -- Set runtime path of "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_generator_c.so" to ""
+[2.291s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces
+[2.291s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg
+[2.291s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.291s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action
+[2.291s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail
+[2.291s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver_item__rosidl_typesupport_fastrtps_c.h
+[2.291s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv
+[2.292s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail
+[2.292s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_fastrtps_c.h
+[2.292s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.292s] -- Set runtime path of "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.292s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces
+[2.292s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg
+[2.292s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.292s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action
+[2.292s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail
+[2.292s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver_item__rosidl_typesupport_introspection_c.h
+[2.292s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver_item__type_support.c
+[2.292s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv
+[2.292s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail
+[2.292s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/check_stock__type_support.c
+[2.292s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_c.h
+[2.292s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_introspection_c.so
+[2.292s] -- Set runtime path of "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.292s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_c.so
+[2.293s] -- Set runtime path of "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_c.so" to ""
+[2.293s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces
+[2.293s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action
+[2.293s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail
+[2.293s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver_item__traits.hpp
+[2.293s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver_item__builder.hpp
+[2.293s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver_item__struct.hpp
+[2.293s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/deliver_item.hpp
+[2.293s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv
+[2.293s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/check_stock.hpp
+[2.293s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail
+[2.293s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/check_stock__builder.hpp
+[2.293s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/check_stock__struct.hpp
+[2.293s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/check_stock__traits.hpp
+[2.293s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces
+[2.293s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg
+[2.293s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.293s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action
+[2.293s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail
+[2.293s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver_item__rosidl_typesupport_fastrtps_cpp.hpp
+[2.293s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/dds_fastrtps
+[2.293s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv
+[2.293s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail
+[2.293s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/dds_fastrtps
+[2.293s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_fastrtps_cpp.hpp
+[2.293s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.293s] -- Set runtime path of "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.293s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces
+[2.294s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action
+[2.294s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail
+[2.294s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver_item__rosidl_typesupport_introspection_cpp.hpp
+[2.294s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/action/detail/deliver_item__type_support.cpp
+[2.294s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv
+[2.294s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail
+[2.294s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/check_stock__type_support.cpp
+[2.294s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/include/warehouse_interfaces/warehouse_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_cpp.hpp
+[2.294s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.294s] -- Set runtime path of "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.294s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_cpp.so
+[2.294s] -- Set runtime path of "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.294s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/environment/pythonpath.sh
+[2.294s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/environment/pythonpath.dsv
+[2.294s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces-0.0.0-py3.10.egg-info
+[2.294s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.294s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.294s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.294s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.294s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces
+[2.294s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_c.c
+[2.294s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.295s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.295s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/action
+[2.295s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/action/_deliver_item_s.c
+[2.295s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/action/_deliver_item.py
+[2.295s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/action/__init__.py
+[2.295s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.295s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/srv
+[2.295s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/srv/_check_stock.py
+[2.295s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/srv/_check_stock_s.c
+[2.295s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/srv/__init__.py
+[2.295s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/libwarehouse_interfaces__rosidl_generator_py.so
+[2.295s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/__init__.py
+[2.295s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/_warehouse_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.295s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.318s] Listing '/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces'...
+[2.318s] Compiling '/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/__init__.py'...
+[2.318s] Listing '/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/action'...
+[2.318s] Compiling '/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/action/__init__.py'...
+[2.318s] Compiling '/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/action/_deliver_item.py'...
+[2.318s] Listing '/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/srv'...
+[2.318s] Compiling '/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/srv/__init__.py'...
+[2.318s] Compiling '/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/srv/_check_stock.py'...
+[2.320s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.321s] -- Set runtime path of "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.321s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.321s] -- Set runtime path of "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.321s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.321s] -- Set runtime path of "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/local/lib/python3.10/dist-packages/warehouse_interfaces/warehouse_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.321s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_generator_py.so
+[2.321s] -- Set runtime path of "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/lib/libwarehouse_interfaces__rosidl_generator_py.so" to ""
+[2.321s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/srv/CheckStock.idl
+[2.321s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/action/DeliverItem.idl
+[2.321s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/srv/CheckStock.srv
+[2.321s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/srv/CheckStock_Request.msg
+[2.322s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/srv/CheckStock_Response.msg
+[2.322s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/action/DeliverItem.action
+[2.322s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/ament_index/resource_index/package_run_dependencies/warehouse_interfaces
+[2.322s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/ament_index/resource_index/parent_prefix_path/warehouse_interfaces
+[2.322s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/environment/ament_prefix_path.sh
+[2.322s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/environment/ament_prefix_path.dsv
+[2.322s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/environment/path.sh
+[2.322s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/environment/path.dsv
+[2.322s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/local_setup.bash
+[2.322s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/local_setup.sh
+[2.322s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/local_setup.zsh
+[2.322s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/local_setup.dsv
+[2.322s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/package.dsv
+[2.322s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/ament_index/resource_index/packages/warehouse_interfaces
+[2.322s] -- Old export file "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[2.322s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_cExport.cmake
+[2.322s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.322s] -- Old export file "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[2.322s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.322s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.322s] -- Old export file "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[2.322s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.322s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.322s] -- Old export file "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[2.322s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_cExport.cmake
+[2.322s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.322s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_cppExport.cmake
+[2.322s] -- Old export file "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[2.322s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.323s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.323s] -- Old export file "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[2.323s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.323s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.323s] -- Old export file "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[2.323s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_cppExport.cmake
+[2.323s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.323s] -- Old export file "/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_pyExport-noconfig.cmake].
+[2.323s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_pyExport.cmake
+[2.323s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/export_warehouse_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.323s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.323s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.323s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.323s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.323s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.323s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.323s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.323s] -- Installing: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfacesConfig.cmake
+[2.323s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/cmake/warehouse_interfacesConfig-version.cmake
+[2.323s] -- Up-to-date: /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_interfaces/share/warehouse_interfaces/package.xml
+[2.325s] Invoked command in '/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_robot:/opt/ros/humble /usr/bin/cmake --install /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_interfaces

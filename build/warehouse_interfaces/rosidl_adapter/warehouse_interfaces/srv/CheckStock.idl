@@ -5,9 +5,13 @@
 
 module warehouse_interfaces {
   module srv {
+    @verbatim (language="comment", text=
+      "Request")
     struct CheckStock_Request {
       string item_name;
     };
+    @verbatim (language="comment", text=
+      "Response")
     struct CheckStock_Response {
       int32 stock_level;
     };

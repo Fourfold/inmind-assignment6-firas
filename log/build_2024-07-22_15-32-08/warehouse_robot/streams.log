@@ -1,0 +1,24 @@
+[0.297s] Invoking command in '/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/src/warehouse_robot': PYTHONPATH=/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot build --build-base /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_robot/build install --record /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_robot/install.log --single-version-externally-managed install_data
+[0.412s] running egg_info
+[0.412s] writing ../../build/warehouse_robot/warehouse_robot.egg-info/PKG-INFO
+[0.412s] writing dependency_links to ../../build/warehouse_robot/warehouse_robot.egg-info/dependency_links.txt
+[0.413s] writing entry points to ../../build/warehouse_robot/warehouse_robot.egg-info/entry_points.txt
+[0.413s] writing requirements to ../../build/warehouse_robot/warehouse_robot.egg-info/requires.txt
+[0.413s] writing top-level names to ../../build/warehouse_robot/warehouse_robot.egg-info/top_level.txt
+[0.414s] reading manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+[0.414s] writing manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+[0.414s] running build
+[0.414s] running build_py
+[0.414s] running install
+[0.415s] running install_lib
+[0.415s] running install_data
+[0.415s] running install_egg_info
+[0.416s] removing '/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.416s] Copying ../../build/warehouse_robot/warehouse_robot.egg-info to /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot-0.0.0-py3.10.egg-info
+[0.417s] running install_scripts
+[0.430s] Installing delivery_client script to /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_robot/lib/warehouse_robot
+[0.430s] Installing delivery_server script to /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_robot/lib/warehouse_robot
+[0.430s] Installing stock_client script to /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_robot/lib/warehouse_robot
+[0.430s] Installing stock_server script to /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_robot/lib/warehouse_robot
+[0.430s] writing list of installed files to '/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_robot/install.log'
+[0.443s] Invoked command in '/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/src/warehouse_robot' returned '0': PYTHONPATH=/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/install/warehouse_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot build --build-base /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_robot/build install --record /home/fourfold/dev/inmind sessions/inmind-session-6/inmind-assignment6-firas/build/warehouse_robot/install.log --single-version-externally-managed install_data

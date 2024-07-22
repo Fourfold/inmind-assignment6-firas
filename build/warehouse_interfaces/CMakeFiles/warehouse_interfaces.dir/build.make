@@ -69,6 +69,11 @@ include CMakeFiles/warehouse_interfaces.dir/progress.make
 CMakeFiles/warehouse_interfaces: /home/fourfold/dev/inmind\ sessions/inmind-session-6/inmind-assignment6-firas/src/warehouse_interfaces/srv/CheckStock.srv
 CMakeFiles/warehouse_interfaces: rosidl_cmake/srv/CheckStock_Request.msg
 CMakeFiles/warehouse_interfaces: rosidl_cmake/srv/CheckStock_Response.msg
+CMakeFiles/warehouse_interfaces: /home/fourfold/dev/inmind\ sessions/inmind-session-6/inmind-assignment6-firas/src/warehouse_interfaces/action/DeliverItem.action
+CMakeFiles/warehouse_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/warehouse_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/warehouse_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/warehouse_interfaces: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
 
 warehouse_interfaces: CMakeFiles/warehouse_interfaces
 warehouse_interfaces: CMakeFiles/warehouse_interfaces.dir/build.make

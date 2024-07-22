@@ -1,7 +1,5 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Int32
-from std_msgs.msg import String
 from warehouse_interfaces.srv import CheckStock
 from random import randint
 
@@ -27,7 +25,10 @@ class CheckStockServer(Node):
     def check_stock_callback(self, request, response):
         item_name = request.item_name
         self.get_logger().info(f'Incoming check stock request for item: {item_name}')
-        response.stock_level = randint(0, 100)
+        if item_name in CheckStockServer.stocks.keys():
+            response.stock_level = CheckStockServer.stocks[item_name]
+        else:
+            response.stock_level = 0
         return response
 
     
