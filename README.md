@@ -1,8 +1,7 @@
-# Robotics Assignment - Session 5 - ROS2
+# Robotics Assignment - Session 6 - ROS2
 
 To build the project, enter the following commands while in the directory of the repository:
 ```
-cd ros2_assignment
 source install/setup.bash
 colcon build
 ```
