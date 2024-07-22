@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/fourfold/dev/inmind sessions/inmind-session-6/assignment_6/src/build/warehouse_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fourfold/dev/inmind sessions/inmind-session-6/assignment_6/src/warehouse_interfaces -DCMAKE_INSTALL_PREFIX=/home/fourfold/dev/inmind sessions/inmind-session-6/assignment_6/src/install/warehouse_interfaces
+[0.015s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.082s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.117s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.118s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.119s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.150s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.150s]   rosidl_generate_interfaces() the passed file 'srv/check_stock.srv' doesn't
+[0.150s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR '/home/fourfold/dev/inmind
+[0.150s]   sessions/inmind-session-6/assignment_6/src/warehouse_interfaces'
+[0.150s] Call Stack (most recent call first):
+[0.151s]   CMakeLists.txt:30 (rosidl_generate_interfaces)
+[0.151s] 
+[0.151s] [0m
+[0.151s] -- Configuring incomplete, errors occurred!
+[0.151s] See also "/home/fourfold/dev/inmind sessions/inmind-session-6/assignment_6/src/build/warehouse_interfaces/CMakeFiles/CMakeOutput.log".
+[0.153s] Invoked command in '/home/fourfold/dev/inmind sessions/inmind-session-6/assignment_6/src/build/warehouse_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fourfold/dev/inmind sessions/inmind-session-6/assignment_6/src/warehouse_interfaces -DCMAKE_INSTALL_PREFIX=/home/fourfold/dev/inmind sessions/inmind-session-6/assignment_6/src/install/warehouse_interfaces

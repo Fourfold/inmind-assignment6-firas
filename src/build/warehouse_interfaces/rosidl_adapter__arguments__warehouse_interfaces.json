@@ -1,0 +1,6 @@
+{
+  "package_name": "warehouse_interfaces",
+  "non_idl_tuples": [
+    "/home/fourfold/dev/inmind sessions/inmind-session-6/assignment_6/src/warehouse_interfaces:srv/CheckStock.srv"
+  ]
+}

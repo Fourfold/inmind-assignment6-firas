@@ -1,0 +1,4 @@
+[console_scripts]
+stock_client = warehouse_robot.check_stock_client:main
+stock_server = warehouse_robot.check_stock_server:main
+
